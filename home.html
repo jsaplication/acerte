@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="icons/icon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <title>Acerte! Home</title>
+</head>
+<body class="home">
+  
+  <div class="perfil">
+      <h1>Acerte<span class="animate__animated animate__heartBeat animate__infinite infinite" style="display: inline-flex;">!</span></h1>
+      <label class="animate__animated animate__zoomInUp">Escolha uma Jogo e Divirta-se</label>
+  </div>
+
+  <div class="container">
+    
+
+
+    <div class="padd-box" onclick="playGame(this)" name="caracteres">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/caracteres.png" width="100%">
+        </div>
+        <div class="box-name">Caracteres</div>
+      </div>
+    </div>
+
+     <div class="padd-box" onclick="playGame(this)" name="geometrias">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/geometria.png" width="100%">
+        </div>
+        <div class="box-name">Geometrias</div>
+      </div>
+    </div>
+
+     <div class="padd-box" onclick="playGame(this)" name="numeros">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/numeros.png" width="100%">
+        </div>
+        <div class="box-name">Números</div>
+      </div>
+    </div>
+
+     <div class="padd-box" onclick="playGame(this)" name="palavras">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/palavras.png" width="100%">
+        </div>
+        <div class="box-name">Palavras</div>
+      </div>
+    </div>
+
+
+     <div class="padd-box" onclick="playGame(this)" name="fisica">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/fisica.png" width="100%">
+        </div>
+        <div class="box-name">Física</div>
+      </div>
+    </div>
+
+    <div class="padd-box" onclick="playGame(this)" name="tradusa">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/indioma.png" width="100%">
+        </div>
+        <div class="box-name">Tradusa</div>
+      </div>
+    </div>
+
+    <div class="padd-box" onclick="playGame(this)" name="images">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/images.png" width="100%">
+        </div>
+        <div class="box-name">Images</div>
+      </div>
+    </div>
+
+     <div class="padd-box" onclick="playGame(this)" name="cores">
+      <div class="box">
+        <div class="box-icon">
+          <img src="icons/cores.png" width="100%">
+        </div>
+        <div class="box-name">Cores</div>
+      </div>
+    </div>
+
+  </div>
+
+<div class="list-level">
+  <div class="padd-level">
+     <div class="titulo-level">Nivel <div class="close-list-level" onclick="closeListLevel()"></div></div>
+     <div class="list">
+
+        <div class="list-item" onclick="openLevel(this)" name="level1">
+          Level 1 
+          <div class="status-level-list">Concluido</div>
+        </div>
+
+        <div class="list-item" onclick="openLevel(this)" name="level2">
+          Level 2
+          <div class="status-level-list">Concluido</div>
+        </div>
+
+        <div class="list-item" onclick="openLevel(this)" name="level3">
+          Level 3 
+          <div class="status-level-list">Concluido</div>
+        </div>
+
+        <div class="list-item" onclick="openLevel(this)" name="level4">
+          Level 4 
+          <div class="status-level-list">Concluido</div>
+        </div>
+
+        <div class="list-item" onclick="openLevel(this)" name="level5">
+          Level 5 
+          <div class="status-level-list">Concluido</div>
+        </div>
+      
+     </div>
+  </div>
+</div>
+<div class="btn-next">level:</div>
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

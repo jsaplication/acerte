@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+</head>
+<body class="home">
+  <div class="stars" ></div>
+  <div class="stars2" ></div>
+  
+   <!--  <div class="box-progress">
+      <div class="progressbar">
+        <div class="barra"></div>
+      </div>
+    </div>
+ -->
+    <div class="timer">
+      <div class="add-segundos animate__animated animate__backOutUp animate__slow">+2</div>
+      <div class="minutos"></div>
+    </div>
+
+    <div class="lavel-name"></div>
+
+    <div class="btn-dica animate__animated animate__pulse animate__infinite animate__slow " onclick="openDica()" ></div>
+  <div class="topo">
+
+    <div class="score flax">
+      <div class="titulo">Acertos</div>
+        <div id="score" class="">
+          <span class="count-score">0</span><span>/20</span>
+        </div>
+    </div>
+
+    <div class="fails flax text-right">
+      <div class="titulo">Erros</div>
+        <div id="fails" class="">
+          <span class="count-fails">0</span><span>/10</span>
+        </div>
+    </div>
+
+  </div>
+  <main>
+    <div id="view" characters="" class="showAnimation"></div>
+    <div class="sombra"></div>
+    
+    <section id="options">
+    
+    </section>
+  </main>
+
+  <div id="game-over" class="hidden">
+    <strong>Você Perdeu</strong>
+    <p id="score-gameover" class="message-status"></p>
+    <p id="score-gameover">Score<span class="score-status"></span></p>
+    <p id="score-gameover">Erros: <span class="error-status"></span></p>
+    <button id="restart" onclick="restart()">Recomeçar</button>
+  </div>
+
+  <div id="game-success" class="hidden">
+    <strong>Parabéns</strong>
+    <p id="score-gameover" class="message-status">Você passou de nivel.</p>
+    <p id="score-gameover">Score<span class="score-status-sucess"></span></p>
+    <p id="score-gameover">Erros: <span class="error-status-sucess"></span></p>
+    <button id="restart" onclick="nextlevel()">Proximo</button>
+  </div>
+
+  <div class="dica animate__animated animate__fadeInDown">
+    <div class="close-dica" onclick="closeDica()"></div>
+    <div class="titulo-dica">Dicas</div>
+    <div class="description-dica">Descricao</div>
+
+  </div>
+  <!-- <div class="btn-next">Proximo</div> -->
+  <div class="prog">
+    <div class="barra-prog"></div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/lodash.js"></script>
+  <script src="js/cronometro.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/md5.js"></script>
+  <div class="scripts"></div>
+  <script src="logica.js"></script>
+</body>
+</html>
