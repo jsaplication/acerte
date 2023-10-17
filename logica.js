@@ -269,7 +269,8 @@ function nextlevel(){
 
 	var next = numero + 1;
 	window.localStorage.setItem("sessionLevel", "level"+next);
-	window.location.reload(true);
+	// window.location.reload(true);
+	window.location.href = ".nextlevel."
 }
 
 function audioScore(audioUrl) {
