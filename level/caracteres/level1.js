@@ -3,31 +3,60 @@ var level1 = [
 		number: 1,
 		pergunta: '?',
 		resposta: 'Interrogação',
-		description:'Junto com o ponto de interrogação, o ponto de exclamação pode ser usado para fazer uma pergunta carregada de emoção. Exemplo: Você não gosta mesmo de sorvete?!'
+		description:'A resposta correta é: Interrogação'
 	},
 	{	
 		number: 2,
 		pergunta: '[]',
 		resposta: 'Parênteses',
-		description:'Quando usar parênteses? Os parênteses são usados: Na introdução de explicações, comentários, considerações e reflexões sobre algo que foi mencionado na frase. Existe dois tipos de orações coordenadas: as sindéticas (ligadas através de uma conjunção) e as assindéticas (ligadas através da vírgula).'
+	  description:'A resposta correta é: Parênteses'
 	},
 	{
 		number: 3,
 		pergunta: '{}',
 		resposta: 'Chaves',
-		description:'Chaves [ { } ], também chamadas de chavetas, são um sinal gráfico usado para indicar reunião. Indicam a reunião de diversos itens relacionados que formam um'
+		description:'A resposta correta é: Chaves'
 	},
 	{
 		number: 4,
 		pergunta: '!',
 		resposta: 'Exclamação',
-		description:'É um sinal de pontuação usado para indicar algum tipo de sentimento, expressando diversos estados emocionais, como alegria, tristeza, medo, admiração ou surpresa.'
+		description:'A resposta correta é: Exclamação'
 	},
 	{
 		number: 5,
-		pergunta: '/',
-		resposta: 'Barra',
-		description:'A barra comum é um caractere representado pelo sinal /, utilizado na informática para separar as subpáginas de seus domínios maiores, exprimir uma relação entre dois números, assim como criar um efeito de alternância de palavras na gramática.'
+		pergunta: '&',
+		resposta: 'E comercial',
+		description:'A resposta correta é: E comercial'
+	},
+	{
+		number: 6,
+		pergunta: '>',
+		resposta: 'Maior que',
+		description:'A resposta correta é: Maior que'
+	},
+	{
+		number: 7,
+		pergunta: '<',
+		resposta: 'Menor que',
+		description:'A resposta correta é: Menor que'
+	},
+	{
+		number: 8,
+		pergunta: 'ˆ',
+		resposta: 'Acento circunflexo',
+		description:'A resposta correta é: Cento circunflexo'
+	},
+	{
+		number: 9,
+		pergunta: '~',
+		resposta: 'Acento til',
+		description:'A resposta correta é: Acento til'
+	},
+	{
+		number: 10,
+		pergunta: '¨',
+		resposta: 'Acento trema',
+		description:'A resposta correta é: Acento trema'
 	}
-
 ]

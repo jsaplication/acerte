@@ -1,32 +1,62 @@
-var level2 = [
+var level3 = [
 	{	
 		number: 1,
-		pergunta: 'Hello',
-		resposta: 'Ola',
-		//description:'Junto com o ponto de interrogação, o ponto de exclamação pode ser usado para fazer uma pergunta carregada de emoção. Exemplo: Você não gosta mesmo de sorvete?!'
+		pergunta: 'All',
+		resposta: 'Todo',
+		description:'A resposta correta é: Todo'
 	},
 	{	
 		number: 2,
-		pergunta: 'Number',
-		resposta: 'Número',
-		//description:'Quando usar parênteses? Os parênteses são usados: Na introdução de explicações, comentários, considerações e reflexões sobre algo que foi mencionado na frase. Existe dois tipos de orações coordenadas: as sindéticas (ligadas através de uma conjunção) e as assindéticas (ligadas através da vírgula).'
+		pergunta: 'Anyone',
+		resposta: 'Qualquer Um',
+		description:'A resposta correta é: Qualquer Um'
 	},
 	{
 		number: 3,
-		pergunta: 'Men',
-		resposta: 'Homens',
-		//description:'Chaves [ { } ], também chamadas de chavetas, são um sinal gráfico usado para indicar reunião. Indicam a reunião de diversos itens relacionados que formam um'
+		pergunta: 'Anything',
+		resposta: 'Nada',
+		description:'A resposta correta é: Nada'
 	},
 	{
 		number: 4,
-		pergunta: 'Name',
-		resposta: 'Nome',
-		//description:'É um sinal de pontuação usado para indicar algum tipo de sentimento, expressando diversos estados emocionais, como alegria, tristeza, medo, admiração ou surpresa.'
+		pergunta: 'Both',
+		resposta: 'Ambos',
+		description:'A resposta correta é: Ambos'
 	},
 	{
 		number: 5,
 		pergunta: 'Mister',
-		resposta: 'Senhor',
-		//description:'A barra comum é um caractere representado pelo sinal /, utilizado na informática para separar as subpáginas de seus domínios maiores, exprimir uma relação entre dois números, assim como criar um efeito de alternância de palavras na gramática.'
+		resposta: 'Cada',
+		description:'A resposta correta é: Cada'
+	},
+	{
+		number: 6,
+		pergunta: 'End',
+		resposta: 'Fim',
+		description:'A resposta correta é: Fim'
+	},
+	{
+		number: 7,
+		pergunta: 'Everyone',
+		resposta: 'Todos',
+		description:'A resposta correta é: Todos'
+	},
+	{
+		number: 8,
+		pergunta: 'Everything',
+		resposta: 'Tudo',
+		description:'A resposta correta é: Tudo'
+	},
+	{
+		number: 9,
+		pergunta: 'He',
+		resposta: 'Ele',
+		description:'A resposta correta é: Ele'
+	},
+	{
+		number: 10,
+		pergunta: 'Himself',
+		resposta: 'Ele Mesmo',
+		description:'A resposta correta é: Ele Mesmo'
 	}
 ]
