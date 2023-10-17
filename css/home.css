@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(180deg, #fff , #0080ff);
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.topo {
+  display: block;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
+  color: #F774BF;
+  height: 70px;
+}
+h1{
+  color: #F774BF;
+}
+.box-nivel{
+   flex-direction: row;
+  justify-content: center;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: auto auto auto auto auto;
+}
+.box-nivel span{
+  width: 10px;
+  height: 10px;
+
+}
+.nivel-not-finalized{
+  background-image: url(../icons/star-disable.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.nivel-finalized{
+  background-image: url(../icons/star-enable.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.container {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top:170px;
+  display: grid;
+  gap: 0px;
+  grid-template-columns: auto auto auto;
+}
+
+.list{
+  background: #fff;
+  line-height: 40px !important;
+  max-height: 500px;
+  overflow-y: scroll;
+
+}
+.list-item{
+  position: relative;
+  box-shadow: 0px 0.2px 0.2px 0.2px rgba(0,0,0,0.6);
+  z-index: 4;
+  top: -1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list-item:active{
+  background: #0080ff;
+  color: #fff;
+}
+.padd-box{
+  position: relative;
+  display: flex;
+  width: calc(130px);
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fafafa;
+  z-index: 1000;
+  
+}
+.box{
+  display: table;
+  width: calc(100%);
+  height: auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  /*box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.6);*/
+/*  margin-bottom: 10px;*/
+
+}
+.box-icon{
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+  border-radius:10px;
+  padding: 10px;
+  margin-left: 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.box-name{
+  
+}
+.btn-next{
+  display: block;
+  padding: 10px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: #fff;
+  background: #0080ff;
+  width: 100px;
+  position: fixed;
+  bottom: 20px;
+  left: calc(50% - 50px);
+  text-align: center;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.perfil{
+  font-style:arial, tahoma, helvetica;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  position: fixed;
+  width: 100%;
+}
+.perfil label{
+  
+  color: #0080ff;
+  margin-bottom: 50px;
+  display: table;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.home::before{
+  content: "";
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  background-image: url(../icons/back-wave.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-level{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: calc(100%);
+	z-index:20000000;
+	padding-top: 50px;
+	transform: translateY(-2000px);
+	opacity: 0;
+
+}
+.padd-level{
+	display: table;
+	background: #fff;
+	width: calc(100% - 100px);
+	position: relative;
+	left: 50px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	position: relative;
+	z-index: 100;
+
+}
+.padd-level span{
+  padding: 10px;
+  color: #333;
+  display: block;
+  box-shadow: 0px 0.2px 0.2px 0.2px rgba(0,0,0,0.6);
+  margin-bottom:2px;
+  text-align: center;
+}
+.titulo-level{
+	font-size: 20px !important;
+	line-height: 50px !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #6203FF;
+	color: #fff;
+  display: table;
+  width: 100%;
+
+}
+.close-list-level{
+	width: 30px;
+	height: 40px;
+	float: right;
+	position: relative;
+	top: 5px;
+	background-image: url(../icons/close.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+  background-position: center center;
+}
+.status-level-list{
+	float: right;
+	font-size: 15px;
+	color: #ababab;
+}
+
+.closeModal{
+	transform: translateY(-1000px);
+	transition: 0.5s;
+  opacity: 0;
+}
+.openModal{
+	transform: translateY(0px);
+	opacity: 1;
+	transition: 0.5s;
+
+}
+
+.closeModal2{
+  transform: translateY(-1000px);
+  opacity: 0;
+  transition: 0.5s;
+
+}
+.openModal2{
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.5s;
+
+}

@@ -13,6 +13,10 @@ function show() {
     if(m+":"+s == '0:0'){
         $("#game-over").removeClass('hidden');
         $(".message-status").text("Tempo esgotado.");
+        var score = $(".count-score").text();
+        var fail = $(".count-fails").text();
+        $(".score-status").text(score)
+        $(".error-status").text(fail)
     }else{
 
     }
