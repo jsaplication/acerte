@@ -3,7 +3,7 @@ function getRandomInt(min, max) {
 }
 
 function limiteAcertos(){
-    return 10;
+    return 20;
 }
 function limiteErros(){
     return 10;
